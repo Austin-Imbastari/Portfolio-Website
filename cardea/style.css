@@ -1465,7 +1465,6 @@ li.milestone
 }
 
 li.milestone:before {
-    content: "/";
     display: inline-block;
     position: absolute;
     right: -55px;
