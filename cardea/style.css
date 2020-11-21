@@ -116,6 +116,16 @@ body p, body pre
     padding: 75px 0;
 }
 
+.click-icons:hover {
+    cursor: pointer;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 /* ===================================
     1.1 Global Header Logo/Menu CSS
@@ -483,6 +493,18 @@ body .sm-clean a:hover, body .main-menu.sm-clean .sub-menu li a:hover, body .sm-
     font-size: 44px;
     line-height: 60px;
     font-weight: 700;
+}
+
+.austin {
+    font-size: 50px;
+    background-color: #111111;
+    text-align: center;
+}
+#austin-pro {
+    background-color: #111111;
+    text-align: center;
+    font-weight: 500;
+    color: #d41e5b;
 }
 
 
@@ -1963,6 +1985,10 @@ footer ul
 
 @media screen and (max-width: 650px) {
 
+    .austin {
+        font-size: 40px;
+    }
+
     .text-slider-wrapper .text-slide
     {
         font-size: 16px;
@@ -2007,6 +2033,15 @@ footer ul
 
 
 @media screen and (max-width: 400px) {
+
+    .austin {
+        font-size: 30px;
+    }
+
+    .austin-pro {
+        font-size: 20px;
+    }
+
     .footer-mail
     {
         font-size: 20px;
