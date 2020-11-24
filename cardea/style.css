@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Table of contents]
 1. Global CSS
-1.1 Global Header Logo/Menu CSS
+          1.1 Global Header Logo/Menu CSS
 1.2. Global Section CSS
 2. Home Section CSS
 3. Services Section CSS
@@ -347,7 +347,7 @@ body .sm-clean a:hover, body .main-menu.sm-clean .sub-menu li a:hover, body .sm-
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 0;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 
@@ -413,7 +413,7 @@ body .sm-clean a:hover, body .main-menu.sm-clean .sub-menu li a:hover, body .sm-
 {
     text-align: left;
     padding-top: 0;
-    font-size: 80px;
+    /* font-size: 80px; */
 }
 
 .section .page-desc
@@ -1832,7 +1832,7 @@ footer ul
 
     .section h2.entry-title, .page-template-default.page .section h1.entry-title
     {
-        font-size: 40px;
+        font-size: 50px;
         line-height: 50px;
     }
 
