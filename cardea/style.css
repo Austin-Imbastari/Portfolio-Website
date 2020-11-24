@@ -347,7 +347,7 @@ body .sm-clean a:hover, body .main-menu.sm-clean .sub-menu li a:hover, body .sm-
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 0;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 
@@ -1832,7 +1832,7 @@ footer ul
 
     .section h2.entry-title, .page-template-default.page .section h1.entry-title
     {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 50px;
     }
 
