@@ -14,7 +14,7 @@ if (isset($_POST["action"])) {
                 if (isset($_POST["email"]) && !empty($_POST["email"])) {
 
                     $message = $_POST["message"];
-                    $message .= "<br/><br/>";					
+                    $message .= "<br/><br/>";
 
                     $response = (SendEmail($message, $_POST["subject"], $_POST["email"], $email)) ? 'Message Sent' : "Sending Message Failed";
                 } else {
