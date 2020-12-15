@@ -1190,9 +1190,9 @@ body .sm-clean a:hover, body .main-menu.sm-clean .sub-menu li a:hover, body .sm-
     font-size: 14px;
     letter-spacing: 2px;
     text-align: center;
-    margin-left: -2px;
+    margin-left: 5px;
     color: #fff;
-    line-height: 100%;
+    line-height: 140%;
 }
 
 .team-load-content-holder
